@@ -34,12 +34,12 @@ public class Deltaker {
 	
 	@Size(min=6, message="Must be at least 6 characters long")
 	@NotNull(message = "Field cannot be empty")
-	@Pattern(regexp="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,}", message="Must be atleast 6 characters long, and should contain both lower- and uppercase aswell as a number")
+	//@Pattern(regexp="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,}", message="Must be atleast 6 characters long, and should contain both lower- and uppercase aswell as a number")
 	private String passord;
 	
 	@Size(min=6, message="Must be at least 6 characters long")
 	@NotNull(message = "Field cannot be empty")
-	@Pattern(regexp="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,}", message="Must be atleast 6 characters long, and should contain both lower- and uppercase aswell as a number")
+	//@Pattern(regexp="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,}", message="Must be atleast 6 characters long, and should contain both lower- and uppercase aswell as a number")
 	private String passordrepetert;
 	
 	@NotNull(message = "Field cannot be empty")
