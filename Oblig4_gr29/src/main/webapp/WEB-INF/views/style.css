@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+input {
+	display: inline-block;
+}
+
+.login-form-wrapper {
+	display:flex;
+	justify-content: center;
+	
+}
+.login-button{
+	border-radius:25px;
+	border: 1px solid black; 
+}
+.content-wrapper{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(246,49,245,1) 40%, rgba(15,3,47,1) 99%);
+	border-radius:25px;
+	padding:35px;
+}
+.login-content{
+	padding-bottom:5px;
+	display:flex;
+	gap:10px;
+	justify-content:space-between;
+	
+}
+.login-text{
+	font-size:20px;
+}
+.wrapper{
+	padding-top: 20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.item-wrapper-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding:20px;
+	border: 2px; 
+	border-radius: 25px;
+}
+
+.item-wrapper{
+	text-align:center;
+	font-size: 25px;
+}
+.itemWrapper {
+	display: flex;
+	gap: 25px;
+	height: 35px;
+	align-items: center;
+}
+
+#deleteBtn {
+	width: 60px;
+	height: 20px;
+}
+
+.itemText {
+	font-size: 20px;
+}
+
+
+
